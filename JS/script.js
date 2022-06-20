@@ -19,7 +19,7 @@ console.log(lastName);
 const color = prompt('Il tuo colore preferito', 'Colore preferito');
 console.log(color);
 
-const password = document.getElementById('your-password');
-console.log(password);
+document.getElementById('your-password').innerText = yourPw + firstName + lastName + color + '21';
 
-password.innerText = yourPw + firstName + lastName + color + '21';
+
+
