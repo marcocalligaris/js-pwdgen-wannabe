@@ -1,5 +1,3 @@
-console.log ('JS OK')
-
 // 1 - Creo variabile per testo introduttivo
 // 2 - Creo variabile per il nome
 // 3 - Creo variabile per il cognome
@@ -19,4 +17,6 @@ console.log(lastName);
 const color = prompt('Il tuo colore preferito', 'Colore preferito');
 console.log(color);
 
-document.getElementById('your-password').innerText = yourPw + firstName + lastName + color + '21';
+// document.getElementById('your-password').innerText = yourPw + firstName + lastName + color + '21';
+
+document.getElementById('your-password').innerHTML = yourPw + "<strong>firstName</strong>" + "<strong>lastName</strong>" + "<strong>color</strong>" + "<strong>21</strong>";
