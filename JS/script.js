@@ -20,6 +20,3 @@ const color = prompt('Il tuo colore preferito', 'Colore preferito');
 console.log(color);
 
 document.getElementById('your-password').innerText = yourPw + firstName + lastName + color + '21';
-
-
-
